@@ -1,4 +1,4 @@
-### 这是一段JavaScript，用来处理rem，使其根据浏览器大小而变化###
+### 这是一段JavaScript，用来处理rem，使其根据浏览器大小而变化
 
 ~~~~~javascript
  (function (designWidth, maxWidth) {
