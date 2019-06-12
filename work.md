@@ -12,7 +12,7 @@
 
 所以我们要选哪一个网站呢？我也不知道。考虑到新手比较多，还是做个简单点的吧。希望基础薄弱的童鞋多花点时间学习js，不然就要成为别人口中的“切图仔”啦。
 
-选择的页面：<http://www.w3school.com.cn/>
+选择的页面：<http://www.w3school.com.cn/>（写不来可以就地查资料，无缝对接，酸爽:smile:）
 
 ![w3c](https://github.com/software-of-collage/team16/blob/master/image/w3c.png?raw=true)
 
