@@ -1,0 +1,352 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: .15rem;
+        }
+
+        .wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 10rem;
+        }
+
+        .header {
+            background: url("http://www.w3school.com.cn/i/ad-header.png") no-repeat;
+            background-size: 100% 100%;
+            height: 1rem;
+            position: relative;
+        }
+
+        #header {
+            background: transparent url('http://www.w3school.com.cn/ui2017/bg.png') 0 -170px no-repeat;
+            background-position: -3% 19%;
+            box-sizing: border-box;
+            height: .8rem;
+            margin: .1rem;
+            width: 3.2rem;
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            z-index: 99;
+        }
+
+        .firstNav {
+            position: relative;
+            border: 1px solid red;
+            height: .4rem;
+        }
+
+        .firstNav ul {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: rgba(220, 220, 220, 0.575);
+        }
+
+        #firstNav li {
+            list-style: none;
+            background: transparent url("http://www.w3school.com.cn/ui2017/bg.png")no-repeat;
+
+            margin: 0;
+            height: 100%;
+            display: inline-block;
+            position: absolute;
+        }
+
+        #firstNav #h {
+            background-position: 0 0;
+            width: 1.3rem;
+        }
+
+        #firstNav #j {
+            background-position: 14% 0;
+            width: 1.3rem;
+            left: 1.3rem;
+        }
+
+        #firstNav #s {
+            background-position: 28% 0;
+            width: 1.3rem;
+            left: 2.6rem;
+        }
+
+        #firstNav #a {
+            background-position: 42% 0;
+            width: 1.3rem;
+            left: 3.9rem;
+        }
+
+        #firstNav #x {
+            background-position: 53% 0;
+            width: .8rem;
+            left: 5.2rem;
+        }
+
+        #firstNav #ws {
+            background-position: 66% 0;
+            width: 1.5rem;
+            left: 6rem;
+        }
+
+        #firstNav #wb {
+            background-position: 82% 0;
+            width: 1.5rem;
+            left: 7.5rem;
+        }
+
+        .space {
+            height: .2rem;
+            width: 100%;
+        }
+
+        .container {
+            width: 100%;
+            border: 1px solid black;
+            position: relative;
+            height: 10rem;
+        }
+
+        .col-1 {
+            width: 10%;
+        }
+
+        .col-2 {
+            width: 19.8%;
+        }
+
+        .col-3 {
+            width: 30%;
+        }
+
+        .col-4 {
+            width: 40%;
+        }
+
+        .col-5 {
+            width: 49%;
+        }
+
+        .col-6 {
+            width: 59.5%;
+        }
+
+        .col-7 {
+            width: 70%;
+        }
+
+        .col-8 {
+            width: 80%;
+        }
+
+        .col-9 {
+            width: 90%;
+        }
+
+        .col-10 {
+            width: 100%;
+        }
+
+        .col-1,
+        .col-2,
+        .col-3,
+        .col-4,
+        .col-5,
+        .col-6,
+        .col-7,
+        .col-8,
+        .col-9,
+        .col-10 {
+            display: inline-block;
+            border: 1px solid red;
+            margin: 0;
+            padding: 0;
+            float: left;
+            height: 100%;
+
+        }
+
+        .title {
+            text-align: center;
+            width: 100%;
+            font-size: .15rem;
+            height: .3rem;
+            box-sizing: border-box;
+            padding: .04rem;
+            color: rgba(0, 0, 0, .8);
+            background: rgba(220, 220, 220, .8);
+        }
+
+        .class-table {}
+
+        .class-contain {
+            box-sizing:border-box;
+            padding:.2rem;
+        }
+
+        .tools-ad {}
+
+        .classes {
+            padding: 0;
+
+        }
+
+        .classes li {
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+            height: .3rem;
+            padding: .05rem;
+            list-style: none;
+        }
+
+        .bottom-waring {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            height: .4rem;
+            box-sizing: border-box;
+            padding: .1rem;
+            text-align: center;
+            background: rgba(180, 180, 180, .8);
+        }
+
+        .bottom-info {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            padding:.1rem;
+            height: .5rem;
+        }
+        .class-contain hr{
+            width:100%;
+            background-color:rgba(230, 226, 10, 0.63);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div id="header">
+                <a href=""></a>
+            </div>
+
+        </div>
+        <div class="firstNav">
+            <ul id="firstNav">
+                <li id="h"></li>
+                <li id="j"></li>
+                <li id="s"></li>
+                <li id="a"></li>
+                <li id="x"></li>
+                <li id="ws"></li>
+                <li id="wb"></li>
+            </ul>
+        </div>
+        <div class="space"></div>
+        <div class="container">
+
+            <div class="class-table col-2">
+                <div class="title">课程表</div>
+                <ul class="classes">
+                    <li>SQL</li>
+                    <li>ASP</li>
+                    <li>ADO</li>
+                    <li>PHP</li>
+                    <li>VBScript</li>
+                </ul>
+            </div>
+            <div class="class-contain col-6">
+                <h2>服务器脚本教程</h2>
+                <h4>从左侧菜单选择你需要的教程!</h4>
+                <hr/>
+                <h2>SQL</h2>
+                <p>SQL 是用于访问和处理数据库的标准的计算机语言。</p>
+                <p>在本教程中，您将学到如何使用 SQL 访问和处理数据系统中的数据，这类数据库包括：Oracle, Sybase, SQL Server, DB2, Access 等等。</p>
+                <hr/>
+                <h2>ASP</h2>
+                <p>ASP 指 Active Server Pages （动态服务器页面）。</p>
+                <p>在我们的 ASP 教程中，您将学到 ASP 的相关知识，以及如何在服务器端执行脚本。</p>
+                <hr/>
+                <h2>ADO</h2>
+                <p>ADO 指 ActiveX 数据对象（ActiveX Data Objects）。</p>
+                <p>在我们的 ADO 教程中，您将学到有关 ADO 的知识，以及如何使用 ADO 从您的网站访问数据库。</p>
+                <hr/>
+                <h2>PHP</h2>
+                <p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言。</p>
+                <p>PHP 是免费的，并且使用广泛。对于像微软 ASP 这样的竞争者来说，PHP 无疑是另一种高效率的选项。</p>
+                <hr/>
+                <h2>VBScript</h2>
+                <p>VBScript 是微软公司出品的脚本语言。</p>
+                <p>VBScript 是 ASP (Active Server Pages) 中的默认脚本语言。</p>
+                <hr/>
+            </div>
+            <div class="tools-ad col-2">
+                <div class="tools">
+                    <div class="title">工具箱</div>
+                </div>
+                <div class="ad">
+                    <div class="title">赞助商友情链接</div>
+                </div>
+            </div>
+            <div class="bottom-waring">
+                W3School 简体中文版提供的内容仅用于培训和测试，不保证内容的正确性。通过使用本站内容随之而来的风险与本站无关。
+            </div>
+
+            <div class="bottom-info">
+                    使用条款和隐私条款。版权所有，保留一切权利。 赞助商：上海赢科投资有限公司。 蒙ICP备06004630号 <a>广告刊例</a>
+                </div>
+        </div>
+        
+    </div>
+</body>
+<script>
+    /*rem响应式处理*/
+    (function (designWidth, maxWidth) {
+        var initRem = 120;
+        var win = window;
+        var docEl = document.documentElement;
+        var tid;
+        function refreshRem() {
+            var width = docEl.getBoundingClientRect().width;
+
+            if (!maxWidth) {
+                maxWidth = 620;
+            }
+            if (width > maxWidth) {
+                width = maxWidth;
+            }
+
+            var rem = width * initRem / designWidth;
+            docEl.setAttribute("style", "font-size:" + parseInt(rem) + "px");
+
+        }
+        refreshRem();
+        win.addEventListener("resize", function () {
+            clearTimeout(tid);
+            tid = setTimeout(refreshRem, 300);
+        }, false);
+
+
+        win.addEventListener("pageshow", function (e) {
+            if (e.persisted) {
+                clearTimeout(tid);
+                tid = setTimeout(refreshRem, 300);
+            }
+        });
+
+
+    }(1200, 1200));
+
+
+</script>
+
+</html>
