@@ -1,0 +1,283 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: .15rem;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 10rem;
+}
+
+.header {
+    background: url("http://www.w3school.com.cn/i/ad-header.png") no-repeat;
+    background-size: 100% 100%;
+    height: 1rem;
+    position: relative;
+}
+
+#header {
+    background: transparent url('http://www.w3school.com.cn/ui2017/bg.png') 0 -170px no-repeat;
+    background-position: -3% 19%;
+    
+    box-sizing: border-box;
+    height: .8rem;
+    margin: .1rem;
+    width: 3.2rem;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.firstNav {
+    position: relative;
+    height: .4rem;
+}
+
+.firstNav ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgba(220, 220, 220, 0.575);
+}
+
+#firstNav li {
+    list-style: none;
+    background: transparent url("http://www.w3school.com.cn/ui2017/bg.png")no-repeat;
+
+    margin: 0;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+}
+
+#firstNav #h {
+    background-position: 0 0;
+    width: 1.3rem;
+}
+#firstNav #h:hover{
+    cursor: pointer;
+    background-position: 0 5.5%;
+}
+
+#firstNav #j {
+    background-position: 14% 0;
+    width: 1.3rem;
+    left: 1.3rem;
+}
+#firstNav #j:hover{
+    cursor: pointer;
+    background-position: 14% 5.5%;
+}
+#firstNav #s {
+    background-position: 28% 0;
+    width: 1.3rem;
+    left: 2.6rem;
+}
+#firstNav #s:hover{
+    cursor: pointer;
+    background-position: 28% 5.5%;
+}
+
+#firstNav #a {
+    background-position: 42% 0;
+    width: 1.3rem;
+    left: 3.9rem;
+}
+#firstNav #a:hover{
+    cursor: pointer;
+    background-position: 42% 5.5%;
+}
+
+#firstNav #x {
+    background-position: 53% 0;
+    width: .8rem;
+    left: 5.2rem;
+}
+#firstNav #x:hover{
+    cursor: pointer;
+    background-position: 53% 5.5%;
+}
+
+#firstNav #ws {
+    background-position: 66% 0;
+    width: 1.5rem;
+    left: 6rem;
+}
+#firstNav #ws:hover{
+    cursor: pointer;
+    background-position: 66% 5.5%;
+}
+
+#firstNav #wb {
+    background-position: 82% 0;
+    width: 1.5rem;
+    left: 7.5rem;
+}
+
+#firstNav #wb:hover{
+    cursor: pointer;
+    background-position: 82% 5.5%;
+}
+.space {
+    height: .2rem;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    height: 10rem;
+}
+
+.col-1 {
+    width: 10%;
+}
+
+.col-2 {
+    width: 19.8%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+.col-5 {
+    width: 49%;
+}
+
+.col-6 {
+    width: 59.5%;
+}
+
+.col-7 {
+    width: 70%;
+}
+
+.col-8 {
+    width: 80%;
+}
+
+.col-9 {
+    width: 90%;
+}
+
+.col-10 {
+    width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 100%;
+
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    font-size: .15rem;
+    height: .3rem;
+    box-sizing: border-box;
+    padding: .04rem;
+    color: rgba(0, 0, 0, .8);
+    background: rgba(220, 220, 220, .8);
+}
+
+.class-table {}
+
+.class-contain {
+    box-sizing:border-box;
+    padding:.2rem;
+}
+
+.tools-ad {}
+.ad img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width:80%;
+}
+.tools h4{
+    margin-top:.05rem;
+    margin-bottom:.05rem;
+    padding-left:.1rem;
+}
+.tools a{
+    display:inline-block;
+    width:100%;
+    padding-left:.2rem;
+    text-decoration: none;
+    margin:.05rem;
+    color:rgb(231, 108, 108);
+}
+
+.tools a:active{
+    color:white;
+}
+.tools a:hover{
+    background:rgba(219, 65, 65, 0.8);
+    color:white;
+}
+.tools a:visited{
+    color:black;
+}
+
+.classes {
+    padding: 0;
+
+}
+
+.classes li {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: .3rem;
+    padding: .05rem;
+    list-style: none;
+}
+.classes li:hover{
+    background:rgba(100, 99, 99, 0.8);
+}
+.bottom-waring {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: .4rem;
+    box-sizing: border-box;
+    padding: .1rem;
+    text-align: center;
+    background: rgba(180, 180, 180, .8);
+}
+
+.bottom-info {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding:.1rem;
+    height: .5rem;
+}
+.class-contain hr{
+    width:100%;
+    background-color:rgba(230, 226, 10, 0.63);
+}
