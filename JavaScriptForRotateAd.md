@@ -86,7 +86,7 @@
 
 这里比较重要的属性是***perspective*** 这个属性是**透视**的意思，所谓透视就是近大远小，后面的值是摄像机的距离，建议调大点。
 
-还有***transform-style: preserve-3d*** 这个属性很重要，他让子元素拥有3d空间属性。*(IE不支持这个属性,换句话说这个实现对IE没用,原网站用IE打开也刷不到这个广告)*
+还有***transform-style: preserve-3d*** 这个属性很重要，他让子元素拥有3d空间属性。 *(IE不支持这个属性,换句话说这个实现对IE没用,原网站用IE打开也刷不到这个广告)*
 
 **face-1 img、face-2 img、face-3 img** 中的***transform:rotateX(180deg)*** 这个属性的意思是绕自身x轴转180度，其作用是让图片转过来，这里就显出了其父元素**div** 的作用，如果直接旋转**face-1、face-2** 等下用**js**修改**style** 时就会将这里的**transform**给覆盖掉。
 
@@ -123,7 +123,7 @@ function initThreeFace() {
 }
 ~~~
 
-**face1、face2、face3、ad** 中都有一段***transform-origin:center center .3rem*** 这个是重中之重，***transform-origin*** 是设置旋转围绕的点，前两个值是设置x轴和y轴，第三个值是z轴，再配合***transform:rotate3d*** ，现在三个面就是围绕着3d空间中横插过五面体的一根轴旋转*（假设五面体是横躺着的并且三个面是绕x轴旋转的）*。
+**face1、face2、face3、ad** 中都有一段***transform-origin:center center .3rem*** 这个是重中之重，***transform-origin*** 是设置旋转围绕的点，前两个值是设置x轴和y轴，第三个值是z轴，再配合***transform:rotate3d*** ，现在三个面就是围绕着3d空间中横插过五面体的一根轴旋转 *（假设五面体是横躺着的并且三个面是绕x轴旋转的）* 。
 
 为什么是120度，是因为将一个等边三角形平分成3份，正好120度。
 
@@ -158,9 +158,13 @@ function rotateAdThreeFace() {
 setInterval(rotateAdThreeFace, 4000);
 ~~~
 
-这一段的核心就是**ad.style....** 这句，和初始化中的是一样的，围绕一个轴自转，因为**transform:rotate3d** 是“转到”而不是“转多少”，所以不能对360度取余，不然会往回转*（如果你不介意就取余吧）* 。
+这一段的核心就是**ad.style....** 这句，和初始化中的是一样的，围绕一个轴自转，因为**transform:rotate3d** 是“转到”而不是“转多少”，所以不能对360度取余，不然会往回转 *（如果你不介意就取余吧）* 。
 
 不用担心数据会大到溢出，我挂了几个小时也才加到几十万，当然这和调用频率有关，切换页面进去之后会疯狂转动应该是这个原因，原网址也有这个问题。
 
-$$\tag{END}$$ 
+***END***
+
+****
+
+
 
