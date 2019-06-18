@@ -4,7 +4,7 @@
 }
 body{
 	background-color: #fdfcf8;
-	height: 3000px;
+	/* height: 3000px; */
 	width: 1210px;
 	margin:0 14px;
 	font-size: 15px;
@@ -124,6 +124,8 @@ a:hover{
 .main-right .ad{
 	background: url(../img/bj.png) no-repeat;
 	background-position: -600px -700px;
+	padding:60px 0 0;
+	text-align: center;
 }
 .main-right h2{
 	font-size: 14px;
