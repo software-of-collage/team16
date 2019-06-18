@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewPort" charset="utf-8" />
+    <link rel="stylesheet" href="w3school-server-side-css/server-side-css.css" type="text/css"/>
+    <style>
+        .top-ad {
+            position: absolute;
+            overflow:hidden;
+            width: 5rem;
+            height: 1rem;
+            z-index: 99;
+            top: 0;
+            right: 0;
+        }
+
+        .wrapper {
+            position: relative;
+        }
+
+        #three-face-body{
+            position:absolute;
+            perspective: 3800;
+            -webkit-perspective: 3800;
+            transform-style: preserve-3d;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #three-face-body div{
+            transform-style:preserve-3d;
+            width:100%;
+            height:100%;
+            position:absolute;
+        }
+        #three-face-body img {
+            width: 100%;
+            height: 100%;
+        }
+        #face-1 img{
+            transform: rotateX(180deg);
+        }
+        #face-2 img{
+            transform:rotateX(180deg);
+        }
+        #face-3 img{
+            transform:rotateX(180deg);
+        }
+    </style>
+</head>
+
+<body style="background:rgba(248, 248, 244, 0.616);">
+    <div class="wrapper">
+        <div class="header">
+            <div id="header">
+                <a href=""></a>
+            </div>
+
+        </div>
+        <div class="top-ad">
+            <div id = "three-face-body">
+                <div id = "face-1">
+                <img src="http://pagead2.googlesyndication.com/sadbundle/15736573313584174543/4.jpg" alt="ssas">
+                </div>
+                <div id = "face-2">
+                <img src="http://pagead2.googlesyndication.com/sadbundle/15736573313584174543/5.jpg" alt="sd">                    
+                </div>
+                <div id = "face-3">
+                        <img src="http://pagead2.googlesyndication.com/sadbundle/15736573313584174543/6.jpg" alt="sss">
+                </div>
+            </div>
+
+        </div>
+        <div class="firstNav">
+            <ul id="firstNav">
+                <li id="h"></li>
+                <li id="j"></li>
+                <li id="s"></li>
+                <li id="a"></li>
+                <li id="x"></li>
+                <li id="ws"></li>
+                <li id="wb"></li>
+            </ul>
+        </div>
+        <div class="space"></div>
+        <div class="container">
+
+            <div class="class-table col-2">
+                <div class="title">课程表</div>
+                <ul class="classes">
+                    <li>SQL</li>
+                    <li>ASP</li>
+                    <li>ADO</li>
+                    <li>PHP</li>
+                    <li>VBScript</li>
+                </ul>
+            </div>
+            <div class="class-contain col-6">
+                <h2>服务器脚本教程</h2>
+                <h4>从左侧菜单选择你需要的教程!</h4>
+                <hr />
+                <h2>SQL</h2>
+                <p>SQL 是用于访问和处理数据库的标准的计算机语言。</p>
+                <p>在本教程中，您将学到如何使用 SQL 访问和处理数据系统中的数据，这类数据库包括：Oracle, Sybase, SQL Server, DB2, Access 等等。</p>
+                <hr />
+                <h2>ASP</h2>
+                <p>ASP 指 Active Server Pages （动态服务器页面）。</p>
+                <p>在我们的 ASP 教程中，您将学到 ASP 的相关知识，以及如何在服务器端执行脚本。</p>
+                <hr />
+                <h2>ADO</h2>
+                <p>ADO 指 ActiveX 数据对象（ActiveX Data Objects）。</p>
+                <p>在我们的 ADO 教程中，您将学到有关 ADO 的知识，以及如何使用 ADO 从您的网站访问数据库。</p>
+                <hr />
+                <h2>PHP</h2>
+                <p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言。</p>
+                <p>PHP 是免费的，并且使用广泛。对于像微软 ASP 这样的竞争者来说，PHP 无疑是另一种高效率的选项。</p>
+                <hr />
+                <h2>VBScript</h2>
+                <p>VBScript 是微软公司出品的脚本语言。</p>
+                <p>VBScript 是 ASP (Active Server Pages) 中的默认脚本语言。</p>
+                <hr />
+            </div>
+            <div class="tools-ad col-2">
+                <div class="tools">
+                    <div class="title">工具箱</div>
+                    <h4>参考手册</h4>
+                    <a href="JavaScript:void(0);">ASP</a>
+                    <a href="javascript:void(0);">ADO</a>
+                    <a href="javascript:void(0);">PHP 5.1</a>
+                    <h4>实例/案例</h4>
+                    <a href="JavaScript:void(0);">ASP 实例</a>
+                    <a href="javascript:void(0);">ADO 实例</a>
+                    <h4>测验/考试</h4>
+                    <a href="javascript:void(0);">SQL测试</a>
+                    <a href="javascript:void(0);">ASP测试</a>
+                </div>
+                <div class="ad">
+                    <div class="title">赞助商友情链接</div>
+                    <img src="http://www.w3school.com.cn/i/sp_sidebar.png" alt="">
+                </div>
+            </div>
+            <div class="bottom-waring">
+                W3School 简体中文版提供的内容仅用于培训和测试，不保证内容的正确性。通过使用本站内容随之而来的风险与本站无关。
+            </div>
+
+            <div class="bottom-info">
+                使用条款和隐私条款。版权所有，保留一切权利。 赞助商：上海赢科投资有限公司。 蒙ICP备06004630号 <a>广告刊例</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="w3school-server-side-js/javaScriptForRem.js"></script>
+<script src="w3school-server-side-js/rotate-ad.js"></script>
+
+</html>
