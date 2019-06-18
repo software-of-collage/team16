@@ -97,7 +97,7 @@ a:hover{
 }
 .main-left li a:hover{
 	display: block;
-	width: 134px;
+	/* width: 148px; */
 	height: 30px;
 	background-color: #AAAAAA;
 	color: #fff;
@@ -115,12 +115,30 @@ a:hover{
 	border: 1px solid #E2E2E2;
 	float:left;
 	margin:25px 0px 0px;
+}
+.main-right .tool{
 	background: url(../img/bj.png) no-repeat;
 	background-position: -400px -722px;
+	padding:0 0 10px;
+}
+.main-right .ad{
+	background: url(../img/bj.png) no-repeat;
+	background-position: -600px -700px;
 }
 .main-right h2{
 	font-size: 14px;
-	margin:55px 0 5px 22px
+	padding:55px 0 5px 22px;
+}
+.main-right li a{
+	display: block;
+	text-decoration: none;
+	color:#900b09;
+	font-size: 12px;
+	padding: 0 15px;
+}
+.main-right li a:hover{
+	background-color: #BD2D30;
+	color:#fff;
 }
 .main-middle .menu{
 	padding:30px 0 35px 0;
