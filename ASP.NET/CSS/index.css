@@ -1,0 +1,188 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: #fdfcf8;
+	height: 3000px;
+	width: 1210px;
+	margin:0 14px;
+	font-size: 15px;
+}
+a:hover{
+	cursor: pointer;
+}
+
+/* 导航栏 */
+.head{
+	height: 100px;
+}
+.head a{
+	display: block;
+	background: url(../img/bj.png) no-repeat 0px -148px;
+	width: 1215px;
+	height: 101px;
+}
+.head a:hover{
+	background: url(../img/bj.png) no-repeat 0px -249px;
+	width: 1215px;
+	height: 101px;
+}
+
+/* 菜单 */
+.nav ul{
+	height: 48px;
+	background: url(../img/bj.png) no-repeat;
+	position: relative;
+}
+/* .nav ul:hover{
+	height: 48px;
+	background: url(../img/bj.png) no-repeat 0px -48px; 
+} */
+.nav li{
+	list-style: none;
+	width: 153px;
+	height: 48px;
+	float: left;
+}
+.nav a{
+	width: 153px;
+	height: 48px;
+	display: block;
+} 
+.nav .H:hover{
+	background: url(../img/bj.png) no-repeat 0px -48px;
+}
+.nav .JS:hover{
+	background: url(../img/bj.png) no-repeat -161px -48px;
+}
+.nav .S:hover{
+	background: url(../img/bj.png) no-repeat -322px -48px;
+}
+.nav .A{
+	background: url(../img/bj.png) no-repeat -483px -48px;
+	position: absolute;
+}
+.nav .X:hover{
+	background: url(../img/bj.png) no-repeat -612px -48px;
+}.nav .WS:hover{
+	background: url(../img/bj.png) no-repeat -751px -48px;
+}
+.nav .WB:hover{
+	background: url(../img/bj.png) no-repeat -936px -48px;
+}
+.main-left{
+	width: 178px;
+	height: 1405px;
+	border: 1px solid #E2E2E2;
+	float:left;
+	margin:25px 0px 0px;
+	padding:50px 0 0;
+	background: url(../img/bj.png) no-repeat ;
+	background-position: 0px -722px;
+}
+.main-left li,.main-right li{
+	width: 178px;
+	height: 30px;
+	list-style: none;
+	line-height: 30px;
+}
+.main-left li a{
+	display: block;
+	text-decoration: none;
+	color:#000;
+	font-size: 12px;
+	font-weight: 700;
+	padding: 0 15px;
+}
+.main-left li a:hover{
+	display: block;
+	width: 134px;
+	height: 30px;
+	background-color: #AAAAAA;
+	color: #fff;
+}
+.main-middle{
+	width: 790px;
+	/* height: 1455px; */
+/* 	border: 1px solid #E2E2E2; */
+	float:left;
+	margin:46.5px 30px 0px;
+}
+.main-right{
+	width: 178px;
+	height: 1455px;
+	border: 1px solid #E2E2E2;
+	float:left;
+	margin:25px 0px 0px;
+	background: url(../img/bj.png) no-repeat;
+	background-position: -400px -722px;
+}
+.main-right h2{
+	font-size: 14px;
+	margin:55px 0 5px 22px
+}
+.main-middle .menu{
+	padding:30px 0 35px 0;
+	border-bottom: 1px solid #aaa;
+}
+.menu p{
+	padding:20px 0 0 ;
+}
+.menu h1{
+	font-size: 36px;
+	padding:0 0 0 25px;
+	font-weight: 400;
+}
+.menu h2{
+	font-size: 30px;
+	font-weight: 400;
+	color:#3f3f3f;
+}
+.menu ul{
+	margin:10px 0 0 35px;
+}
+.menu ul li{
+	margin-top: 3px;
+}
+.menu a{
+	color:#900b09;
+	border-bottom: 1px solid #900b09;
+	text-decoration: none;
+}
+.menu a:hover{
+	color:#ff0000;
+	border-bottom: 1px solid #ff0000;
+	text-decoration: none;
+}
+.footer{
+	width: 1210px;
+	height: 94px;
+	padding-top: 20px;
+	clear:both;
+	background: url(../img/footer.png) repeat-x;
+}
+.footer #p1{
+	font-size: 12px;
+	color: #777;
+	background:url(../img/gth.png) no-repeat;
+	background-position: 235px -2px;
+	text-align: center;
+}
+.footer #p2{
+	font-size: 14px;
+	color:#777;
+	text-align: center;
+	margin:30px 0px;
+}
+#p2 a{
+	text-decoration: none;
+	color:#777;
+}
+#p2 a:hover{
+	text-decoration: underline;
+	color:#000;
+}
+
+
+
